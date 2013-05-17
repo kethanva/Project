@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>qTip2 - Pretty powerful tooltips - Demo - Simple integration</title>
+
+<!--Stylesheets-->
+<link rel="stylesheet" type="text/css" href="http://media1.juggledesign.com/qtip2/css/master.css" />
+<link rel="stylesheet" type="text/css" href="http://craigsworks.com/projects/qtip2/packages/latest/jquery.qtip.min.css" />
+<link rel="stylesheet" type="text/css" href="http://media1.juggledesign.com/qtip2/css/demos.css" />
+
+<!--JavaScript - Might want to move these to the footer of the page to prevent blocking-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.0.0.js"></script>
+<script type="text/javascript" src="http://craigsworks.com/projects/qtip2/packages/latest/jquery.qtip.min.js"></script>
+</head>
+<body class="demo-simple">
+
+<div id="content" class="preview">
+   
+<div id="demo-simple" class="box">
+
+	<h3>Uncertainty principle</h3>
+
+	<p>
+		In <a href="/wiki/Quantum_mechanics" title="Wikipedia: Quantum mechanics">quantum mechanics</a>, the <b>Heisenberg uncertainty principle</b> states by precise inequalities that certain pairs of physical properties, 
+		such as position and <a href="/wiki/Momentum" title="Wikipedia: Momentum">momentum</a>, cannot be simultaneously known to arbitrarily high precision. That is, the more precisely one property is measured, the less 
+		precisely the other can be measured.
+	</p>
+	<a href="callto://kethan.va/" title="Wikipedia: Quantum mechanics"><img src="images/skype-icon.png" width="40" height="40"/></a>
+
+	
+</div>
+
+<script type="text/javascript" class="example">
+$(document).ready(function()
+{
+	// Match all <A/> links with a title tag and use it as the content (default).
+	$('a[title]').qtip();
+});
+</script>
+</div>
+</body>
+</html>
