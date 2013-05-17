@@ -10,6 +10,7 @@
     border: 1px solid rgba(255, 255, 255, 0.25);
 	letter-spacing:.7px; 
     box-shadow: 0 0 3px #555;
+
     -webkit-box-shadow: 0 0 3px #555;
     -moz-box-shadow: 0 0 3px #555;
     border-radius: 5px;

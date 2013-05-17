@@ -10,10 +10,18 @@ div.text1{
 
 }
 div.text2{
-top:500px;
+top:485px;
 right:120px;
 position:absolute;
 }
+
+/* IE color problem */
+a {
+  color:#0FA7D2;
+  text-decoration: none;
+ }
+
+
 
 div.ex1 {
 color:#ffffff;

@@ -94,7 +94,7 @@ jQuery(function() {
           _shadowCss = {
             'top': '-14px',
             'border-bottom-color': _shadowBorderColor,
-            'left': (_left - 1) + 'px'
+            'left': (_left - 1)+_arrow_left_offset + 'px'
           };
           break;
         default:
